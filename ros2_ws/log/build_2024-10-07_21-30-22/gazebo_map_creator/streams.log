@@ -1,0 +1,240 @@
+[0.075s] Invoking command in '/home/student/ros2_ws/build/gazebo_map_creator': CMAKE_PREFIX_PATH=/home/student/ros2_ws/install/gazebo_map_creator_interface:/home/student/ros2_ws/install/turtlesim:/home/student/ros2_ws/install/turtlebot3:/home/student/ros2_ws/install/turtlebot3_simulations:/home/student/ros2_ws/install/turtlebot3_bringup:/home/student/ros2_ws/install/turtlebot3_node:/home/student/ros2_ws/install/turtlebot3_navigation2:/home/student/ros2_ws/install/turtlebot3_fake_node:/home/student/ros2_ws/install/turtlebot3_msgs:/home/student/ros2_ws/install/turtlebot3_gazebo:/home/student/ros2_ws/install/turtlebot3_description:/home/student/ros2_ws/install/turtlebot3_cartographer:/home/student/ros2_ws/install/gazebo_map_creator:/home/student/ros2_ws/install/dynamixel_sdk_examples:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/student/ros2_ws/install/dynamixel_sdk:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/student/ros2_ws/install/gazebo_map_creator_interface/lib:/home/student/ros2_ws/install/turtlesim/lib:/home/student/ros2_ws/install/turtlebot3_msgs/lib:/home/student/ros2_ws/install/gazebo_map_creator/lib:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/student/ros2_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/student/ros2_ws/src/gazebo_map_creator/gazebo_map_creator -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/install/gazebo_map_creator
+[0.243s] -- The C compiler identification is GNU 11.4.0
+[0.342s] -- The CXX compiler identification is GNU 11.4.0
+[0.362s] -- Detecting C compiler ABI info
+[0.722s] -- Detecting C compiler ABI info - done
+[0.746s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.746s] -- Detecting C compile features
+[0.746s] -- Detecting C compile features - done
+[0.751s] -- Detecting CXX compiler ABI info
+[1.038s] -- Detecting CXX compiler ABI info - done
+[1.057s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.059s] -- Detecting CXX compile features
+[1.060s] -- Detecting CXX compile features - done
+[1.065s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.620s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.813s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.896s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[1.986s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.013s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.046s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.089s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.174s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.250s] -- Found gazebo_dev: 3.7.0 (/opt/ros/humble/share/gazebo_dev/cmake)
+[2.291s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[2.293s] -- Checking for module 'bullet>=2.82'
+[2.429s] --   Found bullet, version 3.05
+[3.240s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[3.663s] -- Found assimp: /usr/include (found version "5.2.0") 
+[3.717s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[4.595s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[4.654s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[4.663s] -- Looking for ignition-math6 -- found version 6.15.1
+[4.683s] -- Searching for dependencies of ignition-math6
+[4.694s] -- Looking for OGRE...
+[4.695s] -- OGRE_PREFIX_WATCH changed.
+[4.712s] -- Checking for module 'OGRE'
+[4.793s] --   Found OGRE, version 1.9.0
+[4.950s] -- Found Ogre Ghadamon (1.9.0)
+[4.995s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[5.022s] -- Looking for OGRE_Paging...
+[5.059s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[5.059s] -- Looking for OGRE_Terrain...
+[5.082s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[5.082s] -- Looking for OGRE_Property...
+[5.139s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[5.140s] -- Looking for OGRE_RTShaderSystem...
+[5.170s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[5.170s] -- Looking for OGRE_Volume...
+[5.195s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[5.195s] -- Looking for OGRE_Overlay...
+[5.230s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[5.852s] -- Looking for ignition-math6 -- found version 6.15.1
+[5.856s] -- Looking for ignition-transport8 -- found version 8.2.1
+[5.858s] -- Searching for dependencies of ignition-transport8
+[5.915s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[5.934s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[5.990s] -- Checking for module 'libzmq >= 4'
+[6.099s] --   Found libzmq , version 4.3.4
+[6.335s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[6.360s] -- Checking for module 'uuid'
+[6.495s] --   Found uuid, version 2.37.2
+[6.855s] -- Found UUID: TRUE  
+[6.860s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[6.861s] -- Searching for dependencies of ignition-msgs5
+[6.898s] -- Looking for ignition-math6 -- found version 6.15.1
+[6.914s] -- Checking for module 'tinyxml2'
+[7.006s] --   Found tinyxml2, version 9.0.0
+[7.300s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[7.305s] -- Looking for ignition-common3 -- found version 3.14.0
+[7.305s] -- Searching for dependencies of ignition-common3
+[7.306s] -- Looking for dlfcn.h - found
+[7.308s] -- Looking for libdl - found
+[7.311s] -- Found DL: TRUE  
+[7.349s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[7.350s] -- Searching for <ignition-common3> component [graphics]
+[7.354s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[7.356s] -- Searching for dependencies of ignition-common3-graphics
+[7.357s] -- Looking for ignition-math6 -- found version 6.15.1
+[7.374s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[7.375s] -- Searching for dependencies of ignition-fuel_tools4
+[7.923s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[7.974s] -- Checking for module 'jsoncpp'
+[8.070s] --   Found jsoncpp, version 1.9.5
+[8.335s] -- Found JSONCPP: TRUE  
+[8.371s] -- Checking for module 'libzip'
+[8.498s] --   Found libzip, version 1.7.3
+[8.812s] -- Found ZIP: TRUE  
+[8.812s] -- Looking for ignition-common3 -- found version 3.14.0
+[8.813s] -- Looking for ignition-math6 -- found version 6.15.1
+[8.814s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[8.822s] -- Gazebo version: 11.10
+[8.822s] -- Checking for module 'tbb'
+[8.893s] --   Found tbb, version 2021.5.0
+[9.118s] -- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[9.253s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[9.275s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[9.770s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[9.861s] -- Found FastRTPS: /opt/ros/humble/include  
+[10.038s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[10.081s] -- Found Threads: TRUE  
+[10.759s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[10.927s] -- Found gazebo_map_creator_interface: 3.5.3 (/home/student/ros2_ws/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/cmake)
+[11.194s] -- Found rclpy: 3.3.13 (/opt/ros/humble/share/rclpy/cmake)
+[11.288s] -- Checking for module 'eigen3'
+[11.378s] --   Found eigen3, version 3.4.0
+[11.615s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[11.615s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[11.640s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[11.688s] -- Checking for module 'flann'
+[11.806s] --   Found flann, version 1.9.1
+[12.130s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[12.131s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[12.283s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[12.312s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[13.174s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[13.174s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[13.182s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[13.218s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[13.296s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[13.335s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[13.713s] -- Found X11: /usr/include   
+[13.716s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[14.083s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[14.083s] -- Looking for gethostbyname
+[14.742s] -- Looking for gethostbyname - found
+[14.743s] -- Looking for connect
+[15.163s] -- Looking for connect - found
+[15.163s] -- Looking for remove
+[15.577s] -- Looking for remove - found
+[15.577s] -- Looking for shmat
+[15.970s] -- Looking for shmat - found
+[15.970s] -- Looking for IceConnectionNumber in ICE
+[16.386s] -- Looking for IceConnectionNumber in ICE - found
+[16.897s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[16.905s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[16.914s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[16.925s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[17.170s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[17.186s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[17.210s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[17.257s] -- Found utf8cpp: /usr/include/utf8cpp  
+[17.894s] -- Checking for module 'libusb-1.0'
+[18.016s] --   Found libusb-1.0, version 1.0.25
+[18.300s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[18.306s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[18.306s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[18.675s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[18.676s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[18.676s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[19.315s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[19.336s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[19.369s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[20.008s] -- Found Qhull version 8.0.2
+[20.619s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[21.199s] -- looking for PCL_COMMON
+[21.201s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[21.202s] -- looking for PCL_KDTREE
+[21.203s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[21.203s] -- looking for PCL_OCTREE
+[21.205s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[21.205s] -- looking for PCL_SEARCH
+[21.206s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[21.207s] -- looking for PCL_SAMPLE_CONSENSUS
+[21.208s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[21.208s] -- looking for PCL_FILTERS
+[21.210s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[21.210s] -- looking for PCL_2D
+[21.210s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[21.211s] -- looking for PCL_GEOMETRY
+[21.211s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[21.211s] -- looking for PCL_IO
+[21.213s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[21.213s] -- looking for PCL_FEATURES
+[21.231s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[21.231s] -- looking for PCL_ML
+[21.233s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[21.233s] -- looking for PCL_SEGMENTATION
+[21.235s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[21.235s] -- looking for PCL_VISUALIZATION
+[21.237s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[21.237s] -- looking for PCL_SURFACE
+[21.238s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[21.239s] -- looking for PCL_REGISTRATION
+[21.240s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[21.241s] -- looking for PCL_KEYPOINTS
+[21.242s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[21.242s] -- looking for PCL_TRACKING
+[21.244s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[21.244s] -- looking for PCL_RECOGNITION
+[21.245s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[21.262s] -- looking for PCL_STEREO
+[21.265s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[21.265s] -- looking for PCL_APPS
+[21.267s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[21.268s] -- looking for PCL_IN_HAND_SCANNER
+[21.269s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[21.269s] -- looking for PCL_MODELER
+[21.270s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[21.271s] -- looking for PCL_POINT_CLOUD_EDITOR
+[21.282s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[21.283s] -- looking for PCL_OUTOFCORE
+[21.284s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[21.285s] -- looking for PCL_PEOPLE
+[21.286s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[21.288s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL (Required is at least version "1.2") 
+[21.680s] -- Configuring done
+[22.127s] -- Generating done
+[22.135s] -- Build files have been written to: /home/student/ros2_ws/build/gazebo_map_creator
+[22.227s] Invoked command in '/home/student/ros2_ws/build/gazebo_map_creator' returned '0': CMAKE_PREFIX_PATH=/home/student/ros2_ws/install/gazebo_map_creator_interface:/home/student/ros2_ws/install/turtlesim:/home/student/ros2_ws/install/turtlebot3:/home/student/ros2_ws/install/turtlebot3_simulations:/home/student/ros2_ws/install/turtlebot3_bringup:/home/student/ros2_ws/install/turtlebot3_node:/home/student/ros2_ws/install/turtlebot3_navigation2:/home/student/ros2_ws/install/turtlebot3_fake_node:/home/student/ros2_ws/install/turtlebot3_msgs:/home/student/ros2_ws/install/turtlebot3_gazebo:/home/student/ros2_ws/install/turtlebot3_description:/home/student/ros2_ws/install/turtlebot3_cartographer:/home/student/ros2_ws/install/gazebo_map_creator:/home/student/ros2_ws/install/dynamixel_sdk_examples:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/student/ros2_ws/install/dynamixel_sdk:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/student/ros2_ws/install/gazebo_map_creator_interface/lib:/home/student/ros2_ws/install/turtlesim/lib:/home/student/ros2_ws/install/turtlebot3_msgs/lib:/home/student/ros2_ws/install/gazebo_map_creator/lib:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/student/ros2_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/student/ros2_ws/src/gazebo_map_creator/gazebo_map_creator -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/install/gazebo_map_creator
+[22.228s] Invoking command in '/home/student/ros2_ws/build/gazebo_map_creator': CMAKE_PREFIX_PATH=/home/student/ros2_ws/install/gazebo_map_creator_interface:/home/student/ros2_ws/install/turtlesim:/home/student/ros2_ws/install/turtlebot3:/home/student/ros2_ws/install/turtlebot3_simulations:/home/student/ros2_ws/install/turtlebot3_bringup:/home/student/ros2_ws/install/turtlebot3_node:/home/student/ros2_ws/install/turtlebot3_navigation2:/home/student/ros2_ws/install/turtlebot3_fake_node:/home/student/ros2_ws/install/turtlebot3_msgs:/home/student/ros2_ws/install/turtlebot3_gazebo:/home/student/ros2_ws/install/turtlebot3_description:/home/student/ros2_ws/install/turtlebot3_cartographer:/home/student/ros2_ws/install/gazebo_map_creator:/home/student/ros2_ws/install/dynamixel_sdk_examples:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/student/ros2_ws/install/dynamixel_sdk:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/student/ros2_ws/install/gazebo_map_creator_interface/lib:/home/student/ros2_ws/install/turtlesim/lib:/home/student/ros2_ws/install/turtlebot3_msgs/lib:/home/student/ros2_ws/install/gazebo_map_creator/lib:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/student/ros2_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/student/ros2_ws/build/gazebo_map_creator -- -j8 -l8
+[22.572s] [ 50%] [32mBuilding CXX object CMakeFiles/gazebo_map_creator.dir/src/gazbeo_map_creator.cpp.o[0m
+[52.122s] [100%] [32m[1mLinking CXX shared library libgazebo_map_creator.so[0m
+[54.031s] [100%] Built target gazebo_map_creator
+[54.053s] Invoked command in '/home/student/ros2_ws/build/gazebo_map_creator' returned '0': CMAKE_PREFIX_PATH=/home/student/ros2_ws/install/gazebo_map_creator_interface:/home/student/ros2_ws/install/turtlesim:/home/student/ros2_ws/install/turtlebot3:/home/student/ros2_ws/install/turtlebot3_simulations:/home/student/ros2_ws/install/turtlebot3_bringup:/home/student/ros2_ws/install/turtlebot3_node:/home/student/ros2_ws/install/turtlebot3_navigation2:/home/student/ros2_ws/install/turtlebot3_fake_node:/home/student/ros2_ws/install/turtlebot3_msgs:/home/student/ros2_ws/install/turtlebot3_gazebo:/home/student/ros2_ws/install/turtlebot3_description:/home/student/ros2_ws/install/turtlebot3_cartographer:/home/student/ros2_ws/install/gazebo_map_creator:/home/student/ros2_ws/install/dynamixel_sdk_examples:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/student/ros2_ws/install/dynamixel_sdk:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/student/ros2_ws/install/gazebo_map_creator_interface/lib:/home/student/ros2_ws/install/turtlesim/lib:/home/student/ros2_ws/install/turtlebot3_msgs/lib:/home/student/ros2_ws/install/gazebo_map_creator/lib:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/student/ros2_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/student/ros2_ws/build/gazebo_map_creator -- -j8 -l8
+[54.120s] Invoking command in '/home/student/ros2_ws/build/gazebo_map_creator': CMAKE_PREFIX_PATH=/home/student/ros2_ws/install/gazebo_map_creator_interface:/home/student/ros2_ws/install/turtlesim:/home/student/ros2_ws/install/turtlebot3:/home/student/ros2_ws/install/turtlebot3_simulations:/home/student/ros2_ws/install/turtlebot3_bringup:/home/student/ros2_ws/install/turtlebot3_node:/home/student/ros2_ws/install/turtlebot3_navigation2:/home/student/ros2_ws/install/turtlebot3_fake_node:/home/student/ros2_ws/install/turtlebot3_msgs:/home/student/ros2_ws/install/turtlebot3_gazebo:/home/student/ros2_ws/install/turtlebot3_description:/home/student/ros2_ws/install/turtlebot3_cartographer:/home/student/ros2_ws/install/gazebo_map_creator:/home/student/ros2_ws/install/dynamixel_sdk_examples:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/student/ros2_ws/install/dynamixel_sdk:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/student/ros2_ws/install/gazebo_map_creator_interface/lib:/home/student/ros2_ws/install/turtlesim/lib:/home/student/ros2_ws/install/turtlebot3_msgs/lib:/home/student/ros2_ws/install/gazebo_map_creator/lib:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/student/ros2_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/student/ros2_ws/build/gazebo_map_creator
+[54.133s] -- Install configuration: ""
+[54.134s] -- Execute custom install script
+[54.134s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator/share/gazebo_map_creator/environment/library_path.sh
+[54.150s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator/share/gazebo_map_creator/environment/library_path.dsv
+[54.166s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator/share/gazebo_map_creator/scripts/request_map.py
+[54.181s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator/lib/libgazebo_map_creator.so
+[54.196s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator/lib/gazebo_map_creator/request_map.py
+[54.212s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator/share/ament_index/resource_index/package_run_dependencies/gazebo_map_creator
+[54.227s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator/share/ament_index/resource_index/parent_prefix_path/gazebo_map_creator
+[54.242s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator/share/gazebo_map_creator/environment/ament_prefix_path.sh
+[54.257s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator/share/gazebo_map_creator/environment/ament_prefix_path.dsv
+[54.272s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator/share/gazebo_map_creator/environment/path.sh
+[54.283s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator/share/gazebo_map_creator/environment/path.dsv
+[54.294s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator/share/gazebo_map_creator/local_setup.bash
+[54.305s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator/share/gazebo_map_creator/local_setup.sh
+[54.315s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator/share/gazebo_map_creator/local_setup.zsh
+[54.326s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator/share/gazebo_map_creator/local_setup.dsv
+[54.341s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator/share/gazebo_map_creator/package.dsv
+[54.351s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator/share/ament_index/resource_index/packages/gazebo_map_creator
+[54.361s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator/share/gazebo_map_creator/cmake/ament_cmake_export_libraries-extras.cmake
+[54.371s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator/share/gazebo_map_creator/cmake/ament_cmake_export_dependencies-extras.cmake
+[54.381s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator/share/gazebo_map_creator/cmake/gazebo_map_creatorConfig.cmake
+[54.395s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator/share/gazebo_map_creator/cmake/gazebo_map_creatorConfig-version.cmake
+[54.401s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator/share/gazebo_map_creator/package.xml
+[54.413s] Invoked command in '/home/student/ros2_ws/build/gazebo_map_creator' returned '0': CMAKE_PREFIX_PATH=/home/student/ros2_ws/install/gazebo_map_creator_interface:/home/student/ros2_ws/install/turtlesim:/home/student/ros2_ws/install/turtlebot3:/home/student/ros2_ws/install/turtlebot3_simulations:/home/student/ros2_ws/install/turtlebot3_bringup:/home/student/ros2_ws/install/turtlebot3_node:/home/student/ros2_ws/install/turtlebot3_navigation2:/home/student/ros2_ws/install/turtlebot3_fake_node:/home/student/ros2_ws/install/turtlebot3_msgs:/home/student/ros2_ws/install/turtlebot3_gazebo:/home/student/ros2_ws/install/turtlebot3_description:/home/student/ros2_ws/install/turtlebot3_cartographer:/home/student/ros2_ws/install/gazebo_map_creator:/home/student/ros2_ws/install/dynamixel_sdk_examples:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/student/ros2_ws/install/dynamixel_sdk:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/student/ros2_ws/install/gazebo_map_creator_interface/lib:/home/student/ros2_ws/install/turtlesim/lib:/home/student/ros2_ws/install/turtlebot3_msgs/lib:/home/student/ros2_ws/install/gazebo_map_creator/lib:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/student/ros2_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/student/ros2_ws/build/gazebo_map_creator
